@@ -23,9 +23,5 @@ if choice == "Y":
 elif item_1 in menu:
     user_total += menu[item_1]
     print(user_total) 
-'''if item_1 in menu:
-    user_total += menu[item_1]
-    print(f'Your Total will be {user_total}') 
-else:
-    print("Sorry,we don't have this item.\nTry anything else") '''
+
 
