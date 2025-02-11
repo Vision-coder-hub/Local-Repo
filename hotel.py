@@ -17,11 +17,11 @@ if choice == "Y":
     item_2 = (input("What else would you like to order: "))
     if item_1 and item_2 in menu:
         user_total += menu[item_1 + item_2]
-        print(user_total)
+        print(f'Your total will be {user_total}')
     else:
         print("Sorry,we dont have this item") 
 elif item_1 in menu:
     user_total += menu[item_1]
-    print(user_total) 
+    print(f'Your total will be {user_input}') 
 
 
