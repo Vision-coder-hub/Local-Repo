@@ -6,9 +6,7 @@ menu = {
     'Soup':35
 }
 #Greet
-print("Welcome to My  Restaurant")
-smiley = '\U0001F604'
-print(smiley) 
+print("Welcome to My  Restaurant \U0001F604")
 print(" Pizza:40\n","Burger:25\n","Coffee:15\n","Cocktail:40\n","Soup:35") #print items in menu
 user_total = 0
 item_1 = input("What would you like to have: ") #ask user 
